@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <title>开发者代码编辑器 - 迷你世界</title>
   <link href="./css/app.css" rel="stylesheet">
+  <script src="./js/global.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.3.slim.js" integrity="sha256-DKU1CmJ8kBuEwumaLuh9Tl/6ZB6jzGOBV/5YpNE2BWc=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -136,6 +138,12 @@
       <iframe src="https://developers.miniworldgame.com/wiki/" frameborder="0"></iframe>
       <button type="button" id="toggleWikiBtn" class="btn toggle-wiki-btn">Wiki</button>
     </div>
+
+	<div id="devRun" class="dev-run">
+		<div id="devRunBar" class="dev-run-bar"></div>
+		<iframe src="https://developers.miniworldgame.com/wiki/" frameborder="0"></iframe>
+		<button type="button" id="toggleRunBtn" class="btn toggle-run-btn">Wiki</button>
+	</div>
   </div>
   <script src="./js/datapack.js"></script>
   <script src="./js/insertCodeConfig.js"></script>
