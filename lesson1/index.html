@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DevMini</title>
+<link rel='stylesheet' href='../css/woocommerce-layout.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='../css/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)'/>
+<link rel='stylesheet' href='../css/woocommerce.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='../css/font-awesome.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='../style.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald:400,500,700%7CRoboto:400,500,700%7CHerr+Von+Muellerhoff:400,500,700%7CQuattrocento+Sans:400,500,700' type='text/css' media='all'/>
+<link rel='stylesheet' href='../css/easy-responsive-shortcodes.css' type='text/css' media='all'/>
+<link rel="stylesheet" type="text/css" href="../syntaxhighlighter/css/shCoreDefault.css">
+<script type="text/javascript" src="../syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="../syntaxhighlighter/shBrushLua.js"></script>
+
+</head>
+<body class="container home page page-template page-template-template-portfolio page-template-template-portfolio-php">
+<div id="page">
+	<div class="container">
+		<header id="masthead" class="site-header">
+		<div class="site-branding">
+			<h1 class="site-title"><a href="../index.html" rel="home">DevMini</a></h1>
+			<h2 class="site-description">Cộng đồng Lua Developer Việt Nam</h2>
+		</div>
+		<nav id="site-navigation" class="main-navigation">
+		<button class="menu-toggle">Menu</button>
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+		<div class="menu-menu-1-container">
+			<ul id="menu-menu-1" class="menu">
+				<li><a href="../index.html">Lua</a></li>
+				<li><a href="#">Mini World</a></li>
+				<li><a href="#">MiniScript</a></li>
+				<li><a href="../ungho.html">Ủng hộ</a></li>
+			</ul>
+		</div>
+		</nav>
+		</header>
+		<!-- #masthead -->
+		<div id="content" class="site-content">
+			<h3>Ghi chú</h3>
+			<p><b>Ghi chú </b>được sử dụng để giải thích các đoạn mã hoặc để ghi lại thông tin quan trọng về code. Đây là một phần quan trọng trong việc phát triển phần mềm và giúp cho các lập trình viên hiểu rõ hơn về mã của họ.</p>
+			<p>Khi chạy chương trình, các đoạn code, văn bản nằm trong phạm vi của ghi chú đều không chạy.</p>
+			<b>Ghi chú đơn</b>
+			<pre class="brush: lua;">
+				-- Các lệnh trong đây không được thực thi
+			</pre>
+			<b>Ghi chú đa dòng</b>
+			<pre class="brush: lua;">
+				--[[
+					Các lệnh trong đây không được thực thi
+				]]--
+			</pre>
+			<b>Mục đích của GHI CHÚ</b>
+			<ul>
+				<li>Giải thích cách thức hoạt động của code: Ghi chú giúp người đọc mã hiểu được cách thức hoạt động của code, đặc biệt là trong những trường hợp code khó hiểu.</li>
+				<pre class="brush: lua;">
+					print("Hello Word")-- In ra chữ Hello World
+				</pre>
+				<li>Thông tin quan trọng: Ghi chú có thể được sử dụng để ghi lại thông tin quan trọng về code như phiên bản, tác giả, ngày tạo, đối tượng sử dụng, mô tả chức năng, ...</li>
+				<pre class="brush: lua;">
+					--[[
+						Tác giả: DevMini
+						Xuất bản ngày: 14/03/2023
+					]]--
+				</pre>
+				<li>Debug: Khi gặp lỗi trong code, lập trình viên thường sử dụng ghi chú để ghi lại các bước để xác định lỗi và cách sửa chữa.</li>
+				<pre class="brush: lua;">
+					--ChuongTrinhBiLoi()
+					ChuongTrinhChayBinhThuong()
+				</pre>
+			  </ul> 
+		</div>
+		<!-- #content -->
+	</div>
+	<!-- .container -->
+
+	<a href="#top" class="smoothup" title="Back to top"><span class="genericon genericon-collapse"></span></a>
+</div>
+<!-- #page -->
+<script type="text/javascript">
+	SyntaxHighlighter.all();
+</script>
+<script src='../js/jquery.js'></script>
+<script src='../js/plugins.js'></script>
+<script src='../js/scripts.js'></script>
+<script src='../js/masonry.pkgd.min.js'></script>
+</body>
+</html>
